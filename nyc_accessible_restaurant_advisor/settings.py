@@ -12,7 +12,7 @@ import os
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
-
+'''
 os.environ["PATH"] = (
     os.path.join(BASE_DIR, r"venv\Lib\site-packages\osgeo") + ";" + os.environ["PATH"]
 )
@@ -22,7 +22,7 @@ os.environ["PROJ_LIB"] = (
     + os.environ["PATH"]
 )
 GDAL_LIBRARY_PATH = os.path.join(BASE_DIR, r"venv\lib\site-packages\osgeo\gdal301.dll")
-
+'''
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/3.1/howto/deployment/checklist/
 
